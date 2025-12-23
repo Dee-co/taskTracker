@@ -38,6 +38,57 @@ npm run format
 quasar build
 ```
 
-### Customize the configuration
+# 📝 Task Tracker App
 
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+This is a simple **Task Tracker application** built using **Quasar Framework** and **Vue 3**.  
+It helps users to **add, edit, delete, and manage tasks** easily.
+
+---
+
+## Tech Stack Used
+
+Quasar Framework (v2)
+Vue 3 (Composition API)
+JavaScript
+Pinia
+Router
+
+---
+
+## ✨ Features
+
+### Task Management
+
+Add a new task using a popup dialog
+Edit an existing task using the same dialog
+Delete a task
+Set task status as Pending or complete
+
+### Table View
+
+Tasks are shown in a table format
+Task description is limited to 2 lines
+Task status is shown using colored labels
+Edit and Delete buttons are available in each row
+
+### Filter Tasks
+
+Filter tasks by status:
+All
+Pending
+Completed
+Filter option is available at the top of the table
+
+### Data Storage
+
+Tasks are saved in **LocalStorage**
+Data is not lost on page refresh
+
+### User Interface
+
+Clean and simple design
+Popup dialog with blur effect
+Compact (dense) form fields
+Responsive layout
+
+---
